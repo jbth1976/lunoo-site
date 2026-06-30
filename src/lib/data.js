@@ -1,6 +1,6 @@
 // Données partagées du site
 
-export const siteUrl = 'https://lunoo.com';
+export const siteUrl = 'https://lunoo.studiojbth.com';
 export const amazonUrl = 'https://www.amazon.fr/stores/jean-baptiste-THARRAULT/author/B0DZX8RV6Y/allbooks';
 export const contactEmail = 'jbth1976@icloud.com';
 

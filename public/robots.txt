@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://lunoo.com/sitemap.xml
+Sitemap: https://lunoo.studiojbth.com/sitemap.xml
