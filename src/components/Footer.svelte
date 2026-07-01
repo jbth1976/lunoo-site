@@ -1,5 +1,5 @@
 <script>
-  import { amazonUrl, contactEmail } from '../lib/data.js';
+  import { authorAmazonUrl, contactEmail } from '../lib/data.js';
 </script>
 
 <footer style="position:relative;background:#16263A;color:#FFF7EF;overflow:hidden">
@@ -10,7 +10,7 @@
       <img src="/assets/lunoo-logo-new-crop.png" alt="Lunoo" style="height:104px;width:auto;display:block;margin-left:-4px" />
       <p style="font-size:15px;color:rgba(255,247,239,.66);line-height:1.6;margin:16px 0 0;max-width:280px;font-weight:500">Des histoires tendres et colorées pour donner aux enfants le goût de lire.</p>
       <div style="display:flex;gap:10px;margin-top:18px">
-        <a href={amazonUrl} target="_blank" rel="noopener" aria-label="Page auteur Amazon" class="social social-amazon">Amazon</a>
+        <a href={authorAmazonUrl} target="_blank" rel="noopener" aria-label="Page auteur Amazon" class="social social-amazon">Amazon</a>
       </div>
     </div>
     <div>
@@ -26,8 +26,8 @@
       <div style="font-family:'Fredoka';font-weight:600;font-size:16px;margin-bottom:14px">Aide</div>
       <div style="display:flex;flex-direction:column;gap:10px;font-size:15px;font-weight:600">
         <a href="#faq" class="footlink">FAQ</a>
-        <a href={amazonUrl} target="_blank" rel="noopener" class="footlink">Page auteur</a>
-        <a href={amazonUrl} target="_blank" rel="noopener" class="footlink">Tous les livres</a>
+        <a href={authorAmazonUrl} target="_blank" rel="noopener" class="footlink">Page auteur</a>
+        <a href={authorAmazonUrl} target="_blank" rel="noopener" class="footlink">Tous les livres</a>
         <a href={`mailto:${contactEmail}`} class="footlink">Contact auteur</a>
       </div>
     </div>

@@ -45,7 +45,7 @@
       </div>
       <div style="position:absolute;left:-2%;top:12%;display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.9);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.7);border-radius:16px;padding:11px 15px;box-shadow:0 16px 34px rgba(8,40,46,.22);animation:floatA 7s ease-in-out infinite">
         <div style="width:40px;height:40px;border-radius:11px;background:#FFF1D6;display:flex;align-items:center;justify-content:center;color:#E89B00;font-size:18px">★</div>
-        <div><div style="font-family:'Fredoka',sans-serif;font-weight:600;font-size:16px;line-height:1">Amazon</div><div style="font-size:11.5px;color:#6a7884;font-weight:800">page auteur</div></div>
+        <div><div style="font-family:'Fredoka',sans-serif;font-weight:600;font-size:16px;line-height:1">Amazon</div><div style="font-size:11.5px;color:#6a7884;font-weight:800">Lunoo en Corse</div></div>
       </div>
       <div style="position:absolute;right:-4%;top:30%;background:#FF6F59;color:#fff;font-family:'Fredoka',sans-serif;font-weight:600;font-size:14px;padding:9px 16px;border-radius:999px;box-shadow:0 14px 28px rgba(255,111,89,.4);transform:rotate(6deg);animation:floatC 6s ease-in-out infinite">Nouveau</div>
       <div style="position:absolute;right:2%;bottom:14%;display:flex;align-items:center;gap:9px;background:rgba(255,255,255,.9);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.7);border-radius:14px;padding:10px 14px;box-shadow:0 16px 34px rgba(8,40,46,.22);animation:floatB 7.5s ease-in-out infinite .4s">
