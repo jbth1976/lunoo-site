@@ -1,11 +1,10 @@
 <script>
   import { amazonUrl } from '../lib/data.js';
-  import { parallax } from '../lib/actions.js';
 </script>
 
 <section id="top" style="position:relative;min-height:96vh;display:flex;align-items:center;padding:150px 0 90px;background:linear-gradient(165deg,#34CADA 0%,#16A6B6 52%,#0B7E8A 100%);overflow:hidden">
-  <div use:parallax={-0.05} style="position:absolute;top:-120px;right:-120px;width:520px;height:520px;border-radius:42% 58% 56% 44%/52% 44% 56% 48%;background:radial-gradient(circle at 40% 40%,rgba(255,255,255,.18),rgba(255,255,255,0));animation:blobDrift 14s ease-in-out infinite"></div>
-  <div use:parallax={0.04} style="position:absolute;bottom:-160px;left:-100px;width:460px;height:460px;border-radius:48% 52% 40% 60%/56% 48% 52% 44%;background:radial-gradient(circle at 60% 40%,rgba(11,110,120,.5),rgba(11,110,120,0))"></div>
+  <div style="position:absolute;top:-120px;right:-120px;width:520px;height:520px;border-radius:42% 58% 56% 44%/52% 44% 56% 48%;background:radial-gradient(circle at 40% 40%,rgba(255,255,255,.18),rgba(255,255,255,0));animation:blobDrift 14s ease-in-out infinite"></div>
+  <div style="position:absolute;bottom:-160px;left:-100px;width:460px;height:460px;border-radius:48% 52% 40% 60%/56% 48% 52% 44%;background:radial-gradient(circle at 60% 40%,rgba(11,110,120,.5),rgba(11,110,120,0))"></div>
   <div style="position:absolute;top:16%;left:8%;width:120px;height:48px;border-radius:40px;background:rgba(255,255,255,.5);filter:blur(14px);animation:cloudDrift 9s ease-in-out infinite alternate"></div>
   <div style="position:absolute;top:62%;left:34%;width:90px;height:40px;border-radius:40px;background:rgba(255,255,255,.35);filter:blur(12px);animation:cloudDrift 11s ease-in-out infinite alternate"></div>
   <div style="position:absolute;top:22%;left:46%;color:#FFE9A8;font-size:20px;animation:twinkle 3.2s ease-in-out infinite">✦</div>

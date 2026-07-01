@@ -4,6 +4,7 @@ html{scroll-behavior:smooth}
 body{font-family:'Nunito',sans-serif;background:#FFF7EF;color:#16263A;overflow-x:hidden;position:relative}
 a{text-decoration:none}
 img{max-width:100%}
+main>section:not(#top),footer{content-visibility:auto;contain-intrinsic-size:auto 760px}
 
 @keyframes twinkle{0%,100%{opacity:.25;transform:scale(.8)}50%{opacity:1;transform:scale(1.15)}}
 @keyframes floatA{0%,100%{transform:translateY(0)}50%{transform:translateY(-18px)}}
@@ -22,7 +23,7 @@ img{max-width:100%}
 .hdr.scrolled{background:#16263A;box-shadow:0 6px 22px rgba(22,38,58,.22)}
 .brand-link{display:flex;align-items:center;flex:0 0 auto}
 .brand-logo{height:60px;width:auto;display:block}
-.navlink{color:#fff;padding:8px 15px;border-radius:999px;white-space:nowrap;transition:all .18s}
+.navlink{color:#fff;padding:8px 15px;border-radius:999px;white-space:nowrap;transition:background .18s,color .18s}
 .navlink:hover{background:#fff;color:#0E8A96}
 
 /* buttons */
@@ -62,6 +63,11 @@ img{max-width:100%}
 .legal-card p:last-child{margin-bottom:0}
 .legal-card a{color:#0E8A96;font-weight:800}
 .legal-date{text-align:center;color:#8a93a0;font-size:13px;font-weight:700;margin:18px 0 0}
+
+@media (prefers-reduced-motion: reduce){
+  html{scroll-behavior:auto}
+  *,*::before,*::after{animation-duration:.01ms!important;animation-iteration-count:1!important;transition-duration:.01ms!important}
+}
 
 @media(max-width:980px){
   .nav-main{display:none!important}
