@@ -46,7 +46,7 @@
 
     <div use:reveal style="margin-top:40px;background:#fff;border-radius:28px;padding:44px 48px;box-shadow:0 18px 40px rgba(22,38,58,.07);border:1px solid rgba(22,38,58,.04);display:grid;grid-template-columns:auto 1fr;gap:32px;align-items:center">
       <div style="width:96px;height:96px;border-radius:50%;overflow:hidden;background:#DBF3F5;flex:0 0 auto;box-shadow:0 12px 26px rgba(22,38,58,.14)">
-        <img src="/assets/duo-monsters.png" alt="Lunoo et Luna souriants" style="width:100%;height:100%;object-fit:cover" />
+        <img src="/assets/duo-monsters.webp" alt="Lunoo et Luna souriants" width="520" height="520" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover" />
       </div>
       <div>
         <div style="font-family:'Fredoka',sans-serif;font-weight:600;font-size:13px;letter-spacing:1px;text-transform:uppercase;color:#C24A78">Le mot de l'auteur</div>

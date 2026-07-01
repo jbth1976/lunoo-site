@@ -9,7 +9,7 @@
       <div style="position:absolute;top:-60px;left:-60px;width:200px;height:200px;border-radius:50%;background:rgba(29,182,196,.12)"></div>
       <div use:reveal style="position:relative">
         <div style="position:relative;border-radius:24px;overflow:hidden;box-shadow:0 28px 56px rgba(22,38,58,.16);aspect-ratio:4/5">
-          <img src="/assets/skater-monster.jpeg" alt="Univers Lunoo" style="width:100%;height:100%;object-fit:cover" />
+          <img src="/assets/skater-monster.webp" alt="Univers Lunoo" width="900" height="1350" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover" />
         </div>
         <div style="position:absolute;right:-16px;bottom:-16px;background:#fff;border-radius:16px;padding:12px 16px;box-shadow:0 16px 32px rgba(22,38,58,.16);display:flex;align-items:center;gap:10px;z-index:2">
           <div style="width:38px;height:38px;border-radius:10px;background:#E2F6E9;display:flex;align-items:center;justify-content:center;color:#3CA866;font-size:18px">✓</div>

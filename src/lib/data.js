@@ -6,11 +6,11 @@ export const authorAmazonUrl = 'https://www.amazon.fr/stores/jean-baptiste-THARR
 export const contactEmail = 'jbth1976@icloud.com';
 
 export const books = [
-  { img: '/assets/book3.png', title: 'Lunoo en balade dans la forêt enchantée', price: '11,19 €', url: 'https://www.amazon.fr/dp/B0DZVHM7ZQ' },
-  { img: '/assets/book4.png', title: 'Lunoo & Luna à Marseille', price: '10,76 €', url: 'https://www.amazon.fr/dp/B0FQDMS9YH' },
-  { img: '/assets/book5.png', title: 'Lunoo & Luna : Une fête pour deux cœurs', price: '10,71 €', url: 'https://www.amazon.fr/dp/B0FCRJ362Z' },
-  { img: '/assets/book1.png', title: "Lunoo et l'Aventure sur les plages de la Méditerranée", price: '10,74 €', url: 'https://www.amazon.fr/dp/B0DY4SDCDZ' },
-  { img: '/assets/book2.png', title: 'Lunoo : La Magie de la Neige', price: '11,60 €', url: 'https://www.amazon.fr/dp/B0DXF7R1JR' },
+  { img: '/assets/book3.webp', title: 'Lunoo en balade dans la forêt enchantée', price: '11,19 €', url: 'https://www.amazon.fr/dp/B0DZVHM7ZQ' },
+  { img: '/assets/book4.webp', title: 'Lunoo & Luna à Marseille', price: '10,76 €', url: 'https://www.amazon.fr/dp/B0FQDMS9YH' },
+  { img: '/assets/book5.webp', title: 'Lunoo & Luna : Une fête pour deux cœurs', price: '10,71 €', url: 'https://www.amazon.fr/dp/B0FCRJ362Z' },
+  { img: '/assets/book1.webp', title: "Lunoo et l'Aventure sur les plages de la Méditerranée", price: '10,74 €', url: 'https://www.amazon.fr/dp/B0DY4SDCDZ' },
+  { img: '/assets/book2.webp', title: 'Lunoo : La Magie de la Neige', price: '11,60 €', url: 'https://www.amazon.fr/dp/B0DXF7R1JR' },
 ];
 
 export const faqs = [

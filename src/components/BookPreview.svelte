@@ -2,10 +2,10 @@
   import { reveal } from '../lib/actions.js';
 
   const pages = [
-    { img: '/assets/page1.png', alt: 'Introduction' },
-    { img: '/assets/page2.png', alt: 'Chapitre 1' },
-    { img: '/assets/page3.png', alt: 'Chapitre 6' },
-    { img: '/assets/page4.png', alt: 'Chapitre 8' },
+    { img: '/assets/page1.webp', alt: 'Introduction' },
+    { img: '/assets/page2.webp', alt: 'Chapitre 1' },
+    { img: '/assets/page3.webp', alt: 'Chapitre 6' },
+    { img: '/assets/page4.webp', alt: 'Chapitre 8' },
   ];
 
   let page = 0;
@@ -28,7 +28,7 @@
       <div style="overflow:hidden;border-radius:22px;box-shadow:0 40px 80px rgba(0,0,0,.4)">
         <div style="display:flex;transition:transform .55s cubic-bezier(.4,0,.2,1);transform:translateX({-page * 100}%)">
           {#each pages as p}
-            <img src={p.img} alt={p.alt} style="flex:0 0 100%;width:100%;display:block" />
+            <img src={p.img} alt={p.alt} width="1100" height="688" loading="lazy" decoding="async" style="flex:0 0 100%;width:100%;display:block" />
           {/each}
         </div>
       </div>
@@ -39,6 +39,7 @@
       {#each pages as _, i}
         <button
           aria-label="Aller à la page {i + 1}"
+          aria-current={i === page ? 'true' : undefined}
           on:click={() => go(i)}
           style="width:11px;height:11px;border-radius:50%;border:none;cursor:pointer;padding:0;transition:all .2s;background:{i === page ? '#FFC23C' : 'rgba(255,255,255,.35)'}"
         ></button>

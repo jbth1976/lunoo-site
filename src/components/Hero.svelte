@@ -40,7 +40,7 @@
       <div style="animation:bookBob 6.5s ease-in-out infinite">
         <div class="book-cover">
           <div style="position:absolute;top:14px;bottom:14px;right:-9px;width:18px;background:repeating-linear-gradient(180deg,#fff 0 2px,#e7dccb 2px 4px);border-radius:0 4px 4px 0;transform:skewY(-6deg);box-shadow:5px 10px 18px rgba(8,40,46,.28);z-index:0"></div>
-          <img src="/assets/cover-corse-titled.png" alt="Couverture Lunoo & Luna en Corse" style="position:relative;z-index:1;display:block;width:318px;height:442px;object-fit:cover;border-radius:7px 13px 13px 7px;box-shadow:0 44px 80px rgba(8,40,46,.42);border-left:6px solid rgba(0,0,0,.14)" />
+          <img src="/assets/cover-corse-titled.webp" alt="Couverture Lunoo & Luna en Corse" width="720" height="1080" fetchpriority="high" decoding="async" style="position:relative;z-index:1;display:block;width:318px;height:442px;object-fit:cover;border-radius:7px 13px 13px 7px;box-shadow:0 44px 80px rgba(8,40,46,.42);border-left:6px solid rgba(0,0,0,.14)" />
         </div>
       </div>
       <div style="position:absolute;left:-2%;top:12%;display:flex;align-items:center;gap:10px;background:rgba(255,255,255,.9);backdrop-filter:blur(12px);border:1px solid rgba(255,255,255,.7);border-radius:16px;padding:11px 15px;box-shadow:0 16px 34px rgba(8,40,46,.22);animation:floatA 7s ease-in-out infinite">
@@ -52,7 +52,7 @@
         <span style="color:#3CA866;font-size:16px">✓</span><span style="font-weight:800;font-size:13.5px;color:#16263A">100% sans écran</span>
       </div>
       <div style="position:absolute;left:4%;bottom:8%;width:110px;height:110px;border-radius:50%;overflow:hidden;border:5px solid #fff;box-shadow:0 18px 34px rgba(8,40,46,.28);animation:floatA 8s ease-in-out infinite .2s">
-        <img src="/assets/duo-monsters.png" alt="Lunoo et Luna" style="width:100%;height:100%;object-fit:cover" />
+        <img src="/assets/duo-monsters.webp" alt="Lunoo et Luna" width="520" height="520" decoding="async" style="width:100%;height:100%;object-fit:cover" />
       </div>
     </div>
   </div>

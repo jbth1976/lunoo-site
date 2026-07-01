@@ -7,7 +7,7 @@
   <div style="position:absolute;bottom:60px;left:6%;color:rgba(255,255,255,.14);font-size:16px">✦</div>
   <div class="grid-foot" style="max-width:1200px;margin:0 auto;padding:64px 28px 30px;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:36px;position:relative">
     <div>
-      <img src="/assets/lunoo-logo-new-crop.png" alt="Lunoo" style="height:104px;width:auto;display:block;margin-left:-4px" />
+      <img src="/assets/lunoo-logo-new-crop.webp" alt="Lunoo" width="320" height="259" loading="lazy" decoding="async" style="height:104px;width:auto;display:block;margin-left:-4px" />
       <p style="font-size:15px;color:rgba(255,247,239,.66);line-height:1.6;margin:16px 0 0;max-width:280px;font-weight:500">Des histoires tendres et colorées pour donner aux enfants le goût de lire.</p>
       <div style="display:flex;gap:10px;margin-top:18px">
         <a href={authorAmazonUrl} target="_blank" rel="noopener" aria-label="Page auteur Amazon" class="social social-amazon">Amazon</a>

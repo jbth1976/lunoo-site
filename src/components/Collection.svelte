@@ -14,7 +14,7 @@
       {#each books as book}
         <a class="book-card" href={book.url} target="_blank" rel="noopener" use:reveal>
           <div style="border-radius:14px;overflow:hidden;background:linear-gradient(160deg,#EAF7F2,#F3E4E1);aspect-ratio:3/4;display:flex;align-items:center;justify-content:center">
-            <img src={book.img} alt={book.title} style="width:100%;height:100%;object-fit:cover;object-position:left center" />
+            <img src={book.img} alt={book.title} width="240" height="360" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover;object-position:left center" />
           </div>
           <div style="font-family:'Fredoka',sans-serif;font-weight:500;font-size:17px;line-height:1.18;margin:16px 4px 0;color:#16263A;min-height:60px">{book.title}</div>
           <div style="display:flex;align-items:center;justify-content:space-between;gap:8px;margin:12px 4px 4px">

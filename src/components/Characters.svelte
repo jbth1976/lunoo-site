@@ -13,7 +13,7 @@
       <div use:reveal style="background:#DBF3F5;border-radius:30px;padding:40px;display:flex;gap:26px;align-items:center;position:relative;overflow:hidden">
         <div style="position:absolute;top:-40px;right:-40px;width:160px;height:160px;border-radius:50%;background:rgba(14,138,150,.1)"></div>
         <div style="flex:0 0 160px;width:160px;height:212px;border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 18px 34px rgba(14,138,150,.24);position:relative">
-          <img src="/assets/skater-monster.jpeg" alt="Lunoo" style="width:100%;height:100%;object-fit:cover" />
+          <img src="/assets/skater-monster.webp" alt="Lunoo" width="900" height="1350" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover" />
         </div>
         <div style="position:relative">
           <div style="font-family:'Fredoka',sans-serif;font-weight:600;font-size:34px;color:#0E8A96">Lunoo</div>
@@ -24,7 +24,7 @@
       <div use:reveal style="background:#FCDCE7;border-radius:30px;padding:40px;display:flex;gap:26px;align-items:center;position:relative;overflow:hidden">
         <div style="position:absolute;top:-40px;right:-40px;width:160px;height:160px;border-radius:50%;background:rgba(194,74,120,.1)"></div>
         <div style="flex:0 0 160px;width:160px;height:212px;border-radius:18px;overflow:hidden;background:#fff;box-shadow:0 18px 34px rgba(194,74,120,.22);position:relative">
-          <img src="/assets/duo-monsters.png" alt="Luna" style="width:100%;height:100%;object-fit:cover;object-position:88% 35%;transform:scale(1.05)" />
+          <img src="/assets/duo-monsters.webp" alt="Luna" width="520" height="520" loading="lazy" decoding="async" style="width:100%;height:100%;object-fit:cover;object-position:88% 35%;transform:scale(1.05)" />
         </div>
         <div style="position:relative">
           <div style="font-family:'Fredoka',sans-serif;font-weight:600;font-size:34px;color:#C24A78">Luna</div>
