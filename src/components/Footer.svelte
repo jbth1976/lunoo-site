@@ -8,7 +8,7 @@
   <div class="grid-foot" style="max-width:1200px;margin:0 auto;padding:64px 28px 30px;display:grid;grid-template-columns:1.5fr 1fr 1fr 1fr;gap:36px;position:relative">
     <div>
       <img src="/assets/lunoo-logo-new-crop.webp" alt="Lunoo" width="320" height="259" loading="lazy" decoding="async" style="height:104px;width:auto;display:block;margin-left:-4px" />
-      <p style="font-size:15px;color:rgba(255,247,239,.66);line-height:1.6;margin:16px 0 0;max-width:280px;font-weight:500">Des histoires tendres et colorées pour donner aux enfants le goût de lire.</p>
+      <p style="font-size:15px;color:rgba(255,247,239,.82);line-height:1.6;margin:16px 0 0;max-width:280px;font-weight:600">Des histoires tendres et colorées pour donner aux enfants le goût de lire.</p>
       <div style="display:flex;gap:10px;margin-top:18px">
         <a href={authorAmazonUrl} target="_blank" rel="noopener" aria-label="Page auteur Amazon" class="social social-amazon">Amazon</a>
       </div>
@@ -42,7 +42,7 @@
     </div>
   </div>
   <div style="border-top:1px solid rgba(255,247,239,.12)">
-    <div style="max-width:1200px;margin:0 auto;padding:18px 28px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13.5px;color:rgba(255,247,239,.5);font-weight:600">
+    <div style="max-width:1200px;margin:0 auto;padding:18px 28px;display:flex;justify-content:space-between;gap:16px;flex-wrap:wrap;font-size:13.5px;color:rgba(255,247,239,.72);font-weight:700">
       <span>© 2026 Lunoo. Tous droits réservés.</span>
       <span><a href={`mailto:${contactEmail}`} style="color:inherit">Contact : {contactEmail}</a></span>
     </div>

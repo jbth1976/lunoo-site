@@ -5,7 +5,7 @@
 
 <header class="hdr" class:scrolled>
   <div class="hdr-inner" style="max-width:1200px;margin:0 auto;padding:16px 28px;display:flex;align-items:center;justify-content:space-between;gap:24px">
-    <a href="#top" class="brand-link"><img src="/assets/lunoo-logo-header.webp" alt="Lunoo" class="brand-logo" width="260" height="170" decoding="async" /></a>
+    <a href="#top" class="brand-link" aria-label="Retour en haut de la page Lunoo"><img src="/assets/lunoo-logo-header.webp" alt="Lunoo" class="brand-logo" width="260" height="170" decoding="async" /></a>
     <nav class="nav-main" style="display:flex;align-items:center;gap:2px;font-weight:700;font-size:14.5px;background:rgba(255,255,255,.14);padding:5px;border-radius:999px;border:1px solid rgba(255,255,255,.18)">
       <a href="#univers" class="navlink">L'univers</a>
       <a href="#apercu" class="navlink">Le livre</a>

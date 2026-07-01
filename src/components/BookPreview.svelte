@@ -38,11 +38,13 @@
     <div style="display:flex;justify-content:center;gap:10px;margin-top:24px">
       {#each pages as _, i}
         <button
+          class="dot-btn"
           aria-label="Aller à la page {i + 1}"
           aria-current={i === page ? 'true' : undefined}
           on:click={() => go(i)}
-          style="width:11px;height:11px;border-radius:50%;border:none;cursor:pointer;padding:0;transition:all .2s;background:{i === page ? '#FFC23C' : 'rgba(255,255,255,.35)'}"
-        ></button>
+        >
+          <span style="background:{i === page ? '#FFC23C' : 'rgba(255,255,255,.72)'}"></span>
+        </button>
       {/each}
     </div>
   </div>
