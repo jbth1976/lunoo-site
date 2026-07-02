@@ -28,12 +28,12 @@
       <div style="overflow:hidden;border-radius:22px;box-shadow:0 40px 80px rgba(0,0,0,.4)">
         <div style="display:flex;transition:transform .55s cubic-bezier(.4,0,.2,1);transform:translateX({-page * 100}%)">
           {#each pages as p}
-            <img src={p.img} alt={p.alt} width="1100" height="688" loading="lazy" decoding="async" style="flex:0 0 100%;width:100%;display:block" />
+            <img src={p.img} alt={p.alt} width="1100" height="688" loading="lazy" decoding="async" style="flex:0 0 100%;width:100%;height:auto;display:block;aspect-ratio:1100/688;object-fit:contain" />
           {/each}
         </div>
       </div>
-      <button class="car-arrow" aria-label="Page précédente" style="left:-22px" on:click={() => go(page - 1)}>‹</button>
-      <button class="car-arrow" aria-label="Page suivante" style="right:-22px" on:click={() => go(page + 1)}>›</button>
+      <button class="car-arrow car-arrow--prev" aria-label="Page précédente" on:click={() => go(page - 1)}>‹</button>
+      <button class="car-arrow car-arrow--next" aria-label="Page suivante" on:click={() => go(page + 1)}>›</button>
     </div>
     <div style="display:flex;justify-content:center;gap:10px;margin-top:24px">
       {#each pages as _, i}
