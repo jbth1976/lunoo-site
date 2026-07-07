@@ -7,6 +7,7 @@
   <meta name="description" content="Suivez Lunoo, le petit monstre bleu, et son amie Luna dans des aventures tendres et colorées. Le rituel du soir sans écran, dès 3 ans." />
   <meta name="theme-color" content="#16A6B6" />
   <meta name="robots" content="index,follow" />
+  <meta name="author" content="Jean-Baptiste Tharrault" />
   <link rel="canonical" href="https://lunoo.studiojbth.com/" />
   <meta property="og:type" content="website" />
   <meta property="og:locale" content="fr_FR" />
@@ -22,6 +23,48 @@
   <meta name="twitter:title" content="Lunoo &amp; Luna — Le livre qu'ils vont réclamer chaque soir" />
   <meta name="twitter:description" content="Des aventures tendres et colorées pour créer un rituel du soir sans écran, dès 3 ans." />
   <meta name="twitter:image" content="https://lunoo.studiojbth.com/og-image.jpg" />
+  <!-- Schema.org — Identité auteur Jean-Baptiste Tharrault -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "Person",
+        "@id": "https://studiojbth.com/#person",
+        "name": "Jean-Baptiste Tharrault",
+        "alternateName": ["jbth1976", "JB Tharrault", "JBTH"],
+        "url": "https://studiojbth.com",
+        "email": "jbth1976@gmail.com",
+        "jobTitle": "Auteur jeunesse, Développeur Web, Graphiste",
+        "knowsAbout": ["Littérature jeunesse", "Développement web", "Design graphique", "Intelligence artificielle"],
+        "sameAs": [
+          "https://studiojbth.com",
+          "https://lunoo.studiojbth.com"
+        ]
+      },
+      {
+        "@type": "WebSite",
+        "@id": "https://lunoo.studiojbth.com/#website",
+        "url": "https://lunoo.studiojbth.com",
+        "name": "Lunoo & Luna",
+        "description": "Série jeunesse Lunoo & Luna par Jean-Baptiste Tharrault, dès 3 ans.",
+        "inLanguage": "fr",
+        "author": { "@id": "https://studiojbth.com/#person" },
+        "publisher": { "@id": "https://studiojbth.com/#person" }
+      },
+      {
+        "@type": "BookSeries",
+        "name": "Lunoo & Luna",
+        "url": "https://lunoo.studiojbth.com",
+        "numberOfItems": 5,
+        "inLanguage": "fr",
+        "genre": "Littérature jeunesse",
+        "author": { "@id": "https://studiojbth.com/#person" }
+      }
+    ]
+  }
+  </script>
+
   <!-- Google Analytics 4 -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-MMESW7HQQE"></script>
   <script>
